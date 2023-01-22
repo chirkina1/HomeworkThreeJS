@@ -24,18 +24,17 @@ if(productPrice <= 1000 || productPrice >= 1900){
 
 
 //4
-let winter = 1;
-let spring = 2;
-let summer = 3;
-let autum = 4;
-if(winter){
+let season = 6;
+if(season == 1){
    console.log("Winter");
-} else if(spring){
+} else if(season == 2){
    console.log("Spring");
-} else if(summer == 3){
+} else if(season == 3){
    console.log("Summer");
-} else{
+} else if(season == 4){
    console.log("Autum");
+} else{
+   console.log("No season");
 }
 
 
